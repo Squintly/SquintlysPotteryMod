@@ -1,0 +1,3 @@
+displayName = Squintly's Pottery Mod
+author = Squintly
+version = 0.1
