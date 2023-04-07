@@ -8,7 +8,7 @@ namespace SquintlysPotteryMod.Content.Items
 	{
 		public override void SetStaticDefaults() {
 			DisplayName.SetDefault("Pottery Wheel");
-            base.Tooltip.SetDefault("Used for special crafting");
+            base.Tooltip.SetDefault("Used for special crafting, though it looks a little odd...");
 
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}

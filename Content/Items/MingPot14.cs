@@ -14,7 +14,7 @@ namespace SquintlysPotteryMod.Content.Items
 
 		public override void SetDefaults() {
 			Item.createTile = ModContent.TileType<Tiles.SmallMingPots>(); // This sets the id of the tile that this item should place when used.
-            Item.placeStyle = 2;
+            Item.placeStyle = 1;
 
             Item.width = 16; // The item texture's width
 			Item.height = 16; // The item texture's height
@@ -33,7 +33,7 @@ namespace SquintlysPotteryMod.Content.Items
 		public override void AddRecipes() {
 			CreateRecipe()
 				.AddIngredient(ItemID.ClayBlock, 2)
-				.AddIngredient(ItemID.SilverDye)
+				.AddIngredient(ItemID.Bone)
 				.AddTile<Tiles.PottersWheel>()
 				.Register();
 		}

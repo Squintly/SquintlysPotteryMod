@@ -33,7 +33,7 @@ namespace SquintlysPotteryMod.Content.Items
 		public override void AddRecipes() {
 			CreateRecipe()
 				.AddIngredient(ItemID.ClayBlock, 8)
-				.AddIngredient(ItemID.SilverDye)
+				.AddIngredient(ItemID.Bone)
 				.AddTile<Tiles.PottersWheel>()
 				.Register();
 		}

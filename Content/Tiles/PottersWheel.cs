@@ -25,26 +25,27 @@ public class PottersWheel : ModTile
         ModTranslation name = base.CreateMapEntryName();
         name.SetDefault("Potter's Wheel");
         base.AddMapEntry(new Color(139, 0, 0), name);
+
+        AnimationFrameHeight = 36;
     }
 
-    private readonly int animationFrameWidth = 36;
 
-    public override void AnimateIndividualTile(int type, int i, int j, ref int frameXOffset, ref int frameYOffset)
-    {
-        // Tweak the frame drawn by x position so tiles next to each other are off-sync and look much more interesting
-        int uniqueAnimationFrame = Main.tileFrame[Type] + i;
-        if (i % 2 == 0)
-            uniqueAnimationFrame += 3;
-        if (i % 3 == 0)
-            uniqueAnimationFrame += 3;
-        if (i % 4 == 0)
-            uniqueAnimationFrame += 3;
-        uniqueAnimationFrame %= 5;
+    //public override void AnimateIndividualTile(int type, int i, int j, ref int frameXOffset, ref int frameYOffset)
+    //{
+    //    // Tweak the frame drawn by x position so tiles next to each other are off-sync and look much more interesting
+    //    int uniqueAnimationFrame = Main.tileFrame[Type] + i;
+    //    if (i % 2 == 0)
+    //        uniqueAnimationFrame += 3;
+    //    if (i % 3 == 0)
+    //        uniqueAnimationFrame += 3;
+    //    if (i % 4 == 0)
+    //        uniqueAnimationFrame += 3;
+    //    uniqueAnimationFrame %= 5;
 
-        // frameYOffset = modTile.animationFrameHeight * Main.tileFrame [type] will already be set before this hook is called
-        // But we have a horizontal animated texture, so we use frameXOffset instead of frameYOffset
-        frameXOffset = uniqueAnimationFrame * animationFrameWidth;
-    }
+    //    // frameYOffset = modTile.animationFrameHeight * Main.tileFrame [type] will already be set before this hook is called
+    //    // But we have a horizontal animated texture, so we use frameXOffset instead of frameYOffset
+    //    frameXOffset = uniqueAnimationFrame * animationFrameWidth;
+    //}
 
     public override void AnimateTile(ref int frame, ref int frameCounter)
     {

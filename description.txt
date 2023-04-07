@@ -1,7 +1,10 @@
 Once upon a time, in a post-surgery pain medication haze, I made one hundred and one pots, only to realize once all of them were donw that I had accidentally made them at twice as big as they were supposed to be. Rather than scrap them all, I decided to split them off to a separate mod, so that people who don't mind the higher resolution can still have them if they want.
+Since then, several people have asked for large versions of the pots, and so I have complied, to i think quite excellent results!
 
-There's 6 sets of pots of various sizes based on the pottery of various cultures around the world. They are made using a pottery wheel made 10 wood, an iron bar and some clay. The sets are:
-- Porcelain (silver dye)
+There's 6 sets of pots of various sizes based on the pottery of various cultures around the world. They're crafted using a pottery wheel made 10 wood, an iron bar and some clay. The giant version of the wheel is crafted by doubling the recipe. 
+
+The sets are:
+- Porcelain (bone)
 - Savannah (grass seeds)
 - Jungle (jungle grass seeds)
 - Forest (wood)
