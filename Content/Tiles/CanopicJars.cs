@@ -16,18 +16,14 @@ public class CanopicJars : ModTile
     {
         TileID.Sets.DisableSmartCursor[base.Type] = true;
         Main.tileFrameImportant[base.Type] = true;
-        Main.tileLavaDeath[base.Type] = true;
+
         TileObjectData.newTile.CopyFrom(TileObjectData.Style1x2);
         TileObjectData.newTile.CoordinateHeights = new int[2] { 16, 18 };
         TileObjectData.newTile.StyleHorizontal = true;
 
         TileObjectData.newTile.RandomStyleRange = 3;
-
         TileObjectData.newTile.StyleWrapLimit = 3;
         TileObjectData.newTile.StyleMultiplier = 3;
         TileObjectData.addTile(base.Type);
-
-        LocalizedText name = base.CreateMapEntryName();
-        base.AddMapEntry(new Color(139, 0, 0), name);
     }
 }

@@ -12,9 +12,11 @@ namespace SquintlysPotteryMod.Content.Items
 		}
 
 		public override void SetDefaults() {
-			Item.createTile = ModContent.TileType<Tiles.LargeMingPots>();             Item.placeStyle = 0;
+			Item.createTile = ModContent.TileType<Tiles.LargeMingPots>();            
+			Item.placeStyle = 0;
 
-            Item.width = 32; 			Item.height = 32; 
+            Item.width = 21; 			
+			Item.height = 28; 
 			Item.useTurn = true;
 			Item.autoReuse = true;
 			Item.useStyle = ItemUseStyleID.Swing;
@@ -24,8 +26,7 @@ namespace SquintlysPotteryMod.Content.Items
 			Item.maxStack = 99;
 			Item.consumable = true;
 		}
-
-				public override void AddRecipes() {
+		public override void AddRecipes() {
 			CreateRecipe()
 				.AddIngredient(ItemID.ClayBlock, 8)
 				.AddIngredient(ItemID.Bone)

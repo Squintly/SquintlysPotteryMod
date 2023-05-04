@@ -15,12 +15,11 @@ public class LargeEgyptPots : ModTile
     {
         TileID.Sets.DisableSmartCursor[base.Type] = true;
         Main.tileFrameImportant[base.Type] = true;
-        Main.tileLavaDeath[base.Type] = true;
+
         TileObjectData.newTile.CopyFrom(TileObjectData.Style2x2);
         TileObjectData.newTile.CoordinateHeights = new int[2] { 16, 18 };
         TileObjectData.newTile.StyleHorizontal = true;
+
         TileObjectData.addTile(base.Type);
-        LocalizedText name = base.CreateMapEntryName();
-        base.AddMapEntry(new Color(139, 0, 0), name);
     }
 }
