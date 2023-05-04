@@ -7,18 +7,16 @@ namespace SquintlysPotteryMod.Content.Items
 	public class MingPot12 : ModItem
 	{
 		public override void SetStaticDefaults() {
-			DisplayName.SetDefault("Medium Porcelain Pot");
-            
+			            
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 
 		public override void SetDefaults() {
-			Item.createTile = ModContent.TileType<Tiles.MediumMingPots>(); // This sets the id of the tile that this item should place when used.
-            Item.placeStyle = 6;
+			Item.createTile = ModContent.TileType<Tiles.MediumMingPots>();          
+			Item.placeStyle = 6;
 
-            Item.width = 14; // The item texture's width
-			Item.height = 31; // The item texture's height
-
+            Item.width = 14; 		
+			Item.height = 31; 
 			Item.useTurn = true;
 			Item.autoReuse = true;
 			Item.useStyle = ItemUseStyleID.Swing;
@@ -28,8 +26,6 @@ namespace SquintlysPotteryMod.Content.Items
 			Item.maxStack = 99;
 			Item.consumable = true;
 		}
-
-		// Please see Content/ExampleRecipes.cs for a detailed explanation of recipe creation.
 		public override void AddRecipes() {
 			CreateRecipe()
 				.AddIngredient(ItemID.ClayBlock, 2)

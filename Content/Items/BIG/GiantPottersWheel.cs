@@ -7,18 +7,13 @@ namespace SquintlysPotteryMod.Content.Items.BIG
 	public class GiantPottersWheelItem : ModItem
 	{
 		public override void SetStaticDefaults() {
-			DisplayName.SetDefault("Giant's Pottery Wheel");
-            base.Tooltip.SetDefault("Used for special crafting");
-
+			            
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 
 		public override void SetDefaults() {
-			Item.createTile = ModContent.TileType<Tiles.BIG.GiantPottersWheelTile>(); // This sets the id of the tile that this item should place when used.
-
-			Item.width = 31; // The item texture's width
-			Item.height = 29; // The item texture's height
-
+			Item.createTile = ModContent.TileType<Tiles.BIG.GiantPottersWheelTile>(); 
+			Item.width = 31; 			Item.height = 29; 
 			Item.useTurn = true;
 			Item.autoReuse = true;
 			Item.useStyle = ItemUseStyleID.Swing;
@@ -29,8 +24,7 @@ namespace SquintlysPotteryMod.Content.Items.BIG
 			Item.consumable = true;
 		}
 
-		// Please see Content/ExampleRecipes.cs for a detailed explanation of recipe creation.
-		public override void AddRecipes() {
+				public override void AddRecipes() {
 			CreateRecipe()
 				.AddIngredient(ItemID.Wood, 20)
 				.AddIngredient(ItemID.IronBar,2)

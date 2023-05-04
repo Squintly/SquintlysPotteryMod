@@ -1,0 +1,1097 @@
+Mods: {
+	SquintlysPotteryMod: {
+		Items: {
+			AfricanPot1: {
+				DisplayName: Large Savannah Pot
+				Tooltip: ""
+			}
+
+			AfricanPot10: {
+				DisplayName: Medium Savannah Pot
+				Tooltip: ""
+			}
+
+			AfricanPot11: {
+				DisplayName: Medium Savannah Pot
+				Tooltip: ""
+			}
+
+			AfricanPot12: {
+				DisplayName: Medium Savannah Pot
+				Tooltip: ""
+			}
+
+			AfricanPot13: {
+				DisplayName: Small Savannah Pot
+				Tooltip: ""
+			}
+
+			AfricanPot14: {
+				DisplayName: Small Savannah Pot
+				Tooltip: ""
+			}
+
+			AfricanPot15: {
+				DisplayName: Small Savannah Pot
+				Tooltip: ""
+			}
+
+			AfricanPot16: {
+				DisplayName: Small Savannah Pot
+				Tooltip: ""
+			}
+
+			AfricanPot17: {
+				DisplayName: Small Savannah Pot
+				Tooltip: ""
+			}
+
+			AfricanPot2: {
+				DisplayName: Large Savannah Pot
+				Tooltip: ""
+			}
+
+			AfricanPot3: {
+				DisplayName: Large Savannah Pot
+				Tooltip: ""
+			}
+
+			AfricanPot4: {
+				DisplayName: Large Savannah Pot
+				Tooltip: ""
+			}
+
+			AfricanPot5: {
+				DisplayName: Large Savannah Pot
+				Tooltip: ""
+			}
+
+			AfricanPot6: {
+				DisplayName: Medium Savannah Pot
+				Tooltip: ""
+			}
+
+			AfricanPot7: {
+				DisplayName: Medium Savannah Pot
+				Tooltip: ""
+			}
+
+			AfricanPot8: {
+				DisplayName: Medium Savannah Pot
+				Tooltip: ""
+			}
+
+			AfricanPot9: {
+				DisplayName: Medium Savannah Pot
+				Tooltip: ""
+			}
+
+			AztecPot1: {
+				DisplayName: Large Jungle Pot
+				Tooltip: ""
+			}
+
+			AztecPot10: {
+				DisplayName: Medium Jungle Pot
+				Tooltip: ""
+			}
+
+			AztecPot11: {
+				DisplayName: Medium Jungle Pot
+				Tooltip: ""
+			}
+
+			AztecPot12: {
+				DisplayName: Medium Jungle Pot
+				Tooltip: ""
+			}
+
+			AztecPot13: {
+				DisplayName: Small Jungle Pot
+				Tooltip: ""
+			}
+
+			AztecPot14: {
+				DisplayName: Small Jungle Pot
+				Tooltip: ""
+			}
+
+			AztecPot15: {
+				DisplayName: Small Jungle Pot
+				Tooltip: ""
+			}
+
+			AztecPot16: {
+				DisplayName: Small Jungle Pot
+				Tooltip: ""
+			}
+
+			AztecPot17: {
+				DisplayName: Small Jungle Pot
+				Tooltip: ""
+			}
+
+			AztecPot2: {
+				DisplayName: Large Jungle Pot
+				Tooltip: ""
+			}
+
+			AztecPot3: {
+				DisplayName: Large Jungle Pot
+				Tooltip: ""
+			}
+
+			AztecPot4: {
+				DisplayName: Large Jungle Pot
+				Tooltip: ""
+			}
+
+			AztecPot5: {
+				DisplayName: Large Jungle Pot
+				Tooltip: ""
+			}
+
+			AztecPot6: {
+				DisplayName: Large Jungle Pot
+				Tooltip: ""
+			}
+
+			AztecPot7: {
+				DisplayName: Large Jungle Pot
+				Tooltip: ""
+			}
+
+			AztecPot8: {
+				DisplayName: Medium Jungle Pot
+				Tooltip: ""
+			}
+
+			AztecPot9: {
+				DisplayName: Medium Jungle Pot
+				Tooltip: ""
+			}
+
+			BaboonJar: {
+				DisplayName: Baboon Jar
+				Tooltip: ""
+			}
+
+			BigAfricanPot1: {
+				DisplayName: Gargantuan Savannah Pot
+				Tooltip: ""
+			}
+
+			BigAfricanPot10: {
+				DisplayName: Gargantuan Savannah Pot
+				Tooltip: ""
+			}
+
+			BigAfricanPot11: {
+				DisplayName: Gargantuan Savannah Pot
+				Tooltip: ""
+			}
+
+			BigAfricanPot12: {
+				DisplayName: Massive Savannah Pot
+				Tooltip: ""
+			}
+
+			BigAfricanPot13: {
+				DisplayName: Massive Savannah Pot
+				Tooltip: ""
+			}
+
+			BigAfricanPot14: {
+				DisplayName: Massive Savannah Pot
+				Tooltip: ""
+			}
+
+			BigAfricanPot15: {
+				DisplayName: Massive Savannah Pot
+				Tooltip: ""
+			}
+
+			BigAfricanPot16: {
+				DisplayName: Massive Savannah Pot
+				Tooltip: ""
+			}
+
+			BigAfricanPot17: {
+				DisplayName: Massive Savannah Pot
+				Tooltip: ""
+			}
+
+			BigAfricanPot2: {
+				DisplayName: Gargantuan Savannah Pot
+				Tooltip: ""
+			}
+
+			BigAfricanPot3: {
+				DisplayName: Gargantuan Savannah Pot
+				Tooltip: ""
+			}
+
+			BigAfricanPot4: {
+				DisplayName: Gargantuan Savannah Pot
+				Tooltip: ""
+			}
+
+			BigAfricanPot5: {
+				DisplayName: Gargantuan Savannah Pot
+				Tooltip: ""
+			}
+
+			BigAfricanPot6: {
+				DisplayName: Medium Savannah Pot
+				Tooltip: ""
+			}
+
+			BigAfricanPot7: {
+				DisplayName: Massive Savannah Pot
+				Tooltip: ""
+			}
+
+			BigAfricanPot8: {
+				DisplayName: Massive Savannah Pot
+				Tooltip: ""
+			}
+
+			BigAfricanPot9: {
+				DisplayName: Massive Savannah Pot
+				Tooltip: ""
+			}
+
+			BigAztecPot1: {
+				DisplayName: Gargantuan Jungle Pot
+				Tooltip: ""
+			}
+
+			BigAztecPot10: {
+				DisplayName: Massive Jungle Pot
+				Tooltip: ""
+			}
+
+			BigAztecPot11: {
+				DisplayName: Massive Jungle Pot
+				Tooltip: ""
+			}
+
+			BigAztecPot12: {
+				DisplayName: Massive Jungle Pot
+				Tooltip: ""
+			}
+
+			BigAztecPot13: {
+				DisplayName: Massive Jungle Pot
+				Tooltip: ""
+			}
+
+			BigAztecPot14: {
+				DisplayName: Massive Jungle Pot
+				Tooltip: ""
+			}
+
+			BigAztecPot15: {
+				DisplayName: Massive Jungle Pot
+				Tooltip: ""
+			}
+
+			BigAztecPot16: {
+				DisplayName: Massive Jungle Pot
+				Tooltip: ""
+			}
+
+			BigAztecPot17: {
+				DisplayName: Massive Jungle Pot
+				Tooltip: ""
+			}
+
+			BigAztecPot2: {
+				DisplayName: Gargantuan Jungle Pot
+				Tooltip: ""
+			}
+
+			BigAztecPot3: {
+				DisplayName: Gargantuan Jungle Pot
+				Tooltip: ""
+			}
+
+			BigAztecPot4: {
+				DisplayName: Gargantuan Jungle Pot
+				Tooltip: ""
+			}
+
+			BigAztecPot5: {
+				DisplayName: Gargantuan Jungle Pot
+				Tooltip: ""
+			}
+
+			BigAztecPot6: {
+				DisplayName: Gargantuan Jungle Pot
+				Tooltip: ""
+			}
+
+			BigAztecPot7: {
+				DisplayName: Gargantuan Jungle Pot
+				Tooltip: ""
+			}
+
+			BigAztecPot8: {
+				DisplayName: Gargantuan Jungle Pot
+				Tooltip: ""
+			}
+
+			BigAztecPot9: {
+				DisplayName: Massive Jungle Pot
+				Tooltip: ""
+			}
+
+			BigBaboonJar: {
+				DisplayName: Giant Baboon Jar
+				Tooltip: ""
+			}
+
+			BigEgyptPot1: {
+				DisplayName: Gargantuan Desert Pot
+				Tooltip: ""
+			}
+
+			BigEgyptPot10: {
+				DisplayName: Gargantuan Desert Pot
+				Tooltip: ""
+			}
+
+			BigEgyptPot11: {
+				DisplayName: Gargantuan Desert Pot
+				Tooltip: ""
+			}
+
+			BigEgyptPot12: {
+				DisplayName: Massive Desert Pot
+				Tooltip: ""
+			}
+
+			BigEgyptPot13: {
+				DisplayName: Massive Desert Pot
+				Tooltip: ""
+			}
+
+			BigEgyptPot14: {
+				DisplayName: Massive Desert Pot
+				Tooltip: ""
+			}
+
+			BigEgyptPot15: {
+				DisplayName: Massive Desert Pot
+				Tooltip: ""
+			}
+
+			BigEgyptPot16: {
+				DisplayName: Massive Desert Pot
+				Tooltip: ""
+			}
+
+			BigEgyptPot2: {
+				DisplayName: Gargantuan Desert Pot
+				Tooltip: ""
+			}
+
+			BigEgyptPot3: {
+				DisplayName: Gargantuan Desert Pot
+				Tooltip: ""
+			}
+
+			BigEgyptPot4: {
+				DisplayName: Gargantuan Desert Pot
+				Tooltip: ""
+			}
+
+			BigEgyptPot5: {
+				DisplayName: Gargantuan Desert Pot
+				Tooltip: ""
+			}
+
+			BigEgyptPot6: {
+				DisplayName: Gargantuan Desert Pot
+				Tooltip: ""
+			}
+
+			BigEgyptPot7: {
+				DisplayName: Massive Desert Pot
+				Tooltip: ""
+			}
+
+			BigEgyptPot8: {
+				DisplayName: Gargantuan Desert Pot
+				Tooltip: ""
+			}
+
+			BigEgyptPot9: {
+				DisplayName: Massive Desert Pot
+				Tooltip: ""
+			}
+
+			BigGreekPot1: {
+				DisplayName: Gargantuan Meditteranian Pot
+				Tooltip: ""
+			}
+
+			BigGreekPot10: {
+				DisplayName: Gargantuan Meditteranian Pot
+				Tooltip: ""
+			}
+
+			BigGreekPot11: {
+				DisplayName: Massive Meditteranian Pot
+				Tooltip: ""
+			}
+
+			BigGreekPot12: {
+				DisplayName: Massive Meditteranian Pot
+				Tooltip: ""
+			}
+
+			BigGreekPot13: {
+				DisplayName: Massive Meditteranian Pot
+				Tooltip: ""
+			}
+
+			BigGreekPot14: {
+				DisplayName: Massive Meditteranian Pot
+				Tooltip: ""
+			}
+
+			BigGreekPot15: {
+				DisplayName: Massive Meditteranian Pot
+				Tooltip: ""
+			}
+
+			BigGreekPot16: {
+				DisplayName: Massive Meditteranian Pot
+				Tooltip: ""
+			}
+
+			BigGreekPot17: {
+				DisplayName: Massive Meditteranian Pot
+				Tooltip: ""
+			}
+
+			BigGreekPot2: {
+				DisplayName: Gargantuan Meditteranian Pot
+				Tooltip: ""
+			}
+
+			BigGreekPot3: {
+				DisplayName: Gargantuan Meditteranian Pot
+				Tooltip: ""
+			}
+
+			BigGreekPot4: {
+				DisplayName: Gargantuan Meditteranian Pot
+				Tooltip: ""
+			}
+
+			BigGreekPot5: {
+				DisplayName: Gargantuan Meditteranian Pot
+				Tooltip: ""
+			}
+
+			BigGreekPot6: {
+				DisplayName: Gargantuan Meditteranian Pot
+				Tooltip: ""
+			}
+
+			BigGreekPot7: {
+				DisplayName: Gargantuan Meditteranian Pot
+				Tooltip: ""
+			}
+
+			BigGreekPot8: {
+				DisplayName: Gargantuan Meditteranian Pot
+				Tooltip: ""
+			}
+
+			BigGreekPot9: {
+				DisplayName: Gargantuan Meditteranian Pot
+				Tooltip: ""
+			}
+
+			BigHawkJar: {
+				DisplayName: Giant Hawk Jar
+				Tooltip: ""
+			}
+
+			BigHumanJar: {
+				DisplayName: Giant Human Jar
+				Tooltip: ""
+			}
+
+			BigJackelJar: {
+				DisplayName: Giant Jackel Jar
+				Tooltip: ""
+			}
+
+			BigMingPot1: {
+				DisplayName: Gargantuan Porcelain Pot
+				Tooltip: ""
+			}
+
+			BigMingPot10: {
+				DisplayName: Gargantuan Porcelain Pot
+				Tooltip: ""
+			}
+
+			BigMingPot11: {
+				DisplayName: Massive Porcelain Pot
+				Tooltip: ""
+			}
+
+			BigMingPot12: {
+				DisplayName: Massive Porcelain Pot
+				Tooltip: ""
+			}
+
+			BigMingPot13: {
+				DisplayName: Massive Porcelain Pot
+				Tooltip: ""
+			}
+
+			BigMingPot14: {
+				DisplayName: Massive Porcelain Pot
+				Tooltip: ""
+			}
+
+			BigMingPot15: {
+				DisplayName: Massive Porcelain Pot
+				Tooltip: ""
+			}
+
+			BigMingPot16: {
+				DisplayName: Massive Porcelain Pot
+				Tooltip: ""
+			}
+
+			BigMingPot17: {
+				DisplayName: Massive Porcelain Pot
+				Tooltip: ""
+			}
+
+			BigMingPot2: {
+				DisplayName: Gargantuan Porcelain Pot
+				Tooltip: ""
+			}
+
+			BigMingPot3: {
+				DisplayName: Gargantuan Porcelain Pot
+				Tooltip: ""
+			}
+
+			BigMingPot4: {
+				DisplayName: Gargantuan Porcelain Pot
+				Tooltip: ""
+			}
+
+			BigMingPot5: {
+				DisplayName: Gargantuan Porcelain Pot
+				Tooltip: ""
+			}
+
+			BigMingPot6: {
+				DisplayName: Gargantuan Porcelain Pot
+				Tooltip: ""
+			}
+
+			BigMingPot7: {
+				DisplayName: Massive Porcelain Pot
+				Tooltip: ""
+			}
+
+			BigMingPot8: {
+				DisplayName: Massive Porcelain Pot
+				Tooltip: ""
+			}
+
+			BigMingPot9: {
+				DisplayName: Massive Porcelain Pot
+				Tooltip: ""
+			}
+
+			BigNativePot1: {
+				DisplayName: Gargantuan Forest Pot
+				Tooltip: ""
+			}
+
+			BigNativePot10: {
+				DisplayName: Gargantuan Forest Pot
+				Tooltip: ""
+			}
+
+			BigNativePot11: {
+				DisplayName: Gargantuan Forest Pot
+				Tooltip: ""
+			}
+
+			BigNativePot12: {
+				DisplayName: Gargantuan Forest Pot
+				Tooltip: ""
+			}
+
+			BigNativePot13: {
+				DisplayName: Massive Forest Pot
+				Tooltip: ""
+			}
+
+			BigNativePot14: {
+				DisplayName: Massive Forest Pot
+				Tooltip: ""
+			}
+
+			BigNativePot15: {
+				DisplayName: Massive Forest Pot
+				Tooltip: ""
+			}
+
+			BigNativePot16: {
+				DisplayName: Massive Forest Pot
+				Tooltip: ""
+			}
+
+			BigNativePot17: {
+				DisplayName: Massive Forest Pot
+				Tooltip: ""
+			}
+
+			BigNativePot2: {
+				DisplayName: Gargantuan Forest Pot
+				Tooltip: ""
+			}
+
+			BigNativePot3: {
+				DisplayName: Gargantuan Forest Pot
+				Tooltip: ""
+			}
+
+			BigNativePot4: {
+				DisplayName: Gargantuan Forest Pot
+				Tooltip: ""
+			}
+
+			BigNativePot5: {
+				DisplayName: Gargantuan Forest Pot
+				Tooltip: ""
+			}
+
+			BigNativePot6: {
+				DisplayName: Gargantuan Forest Pot
+				Tooltip: ""
+			}
+
+			BigNativePot7: {
+				DisplayName: Gargantuan Forest Pot
+				Tooltip: ""
+			}
+
+			BigNativePot8: {
+				DisplayName: Gargantuan Forest Pot
+				Tooltip: ""
+			}
+
+			BigNativePot9: {
+				DisplayName: Massive Forest Pot
+				Tooltip: ""
+			}
+
+			GiantPottersWheelItem: {
+				DisplayName: Giant's Pottery Wheel
+				Tooltip: Used for special crafting
+			}
+
+			EgyptPot1: {
+				DisplayName: Large Desert Pot
+				Tooltip: ""
+			}
+
+			EgyptPot10: {
+				DisplayName: Medium Desert Pot
+				Tooltip: ""
+			}
+
+			EgyptPot11: {
+				DisplayName: Medium Desert Pot
+				Tooltip: ""
+			}
+
+			EgyptPot12: {
+				DisplayName: Small Desert Pot
+				Tooltip: ""
+			}
+
+			EgyptPot13: {
+				DisplayName: Small Desert Pot
+				Tooltip: ""
+			}
+
+			EgyptPot14: {
+				DisplayName: Small Desert Pot
+				Tooltip: ""
+			}
+
+			EgyptPot15: {
+				DisplayName: Small Desert Pot
+				Tooltip: ""
+			}
+
+			EgyptPot16: {
+				DisplayName: Small Desert Pot
+				Tooltip: ""
+			}
+
+			EgyptPot2: {
+				DisplayName: Large Desert Pot
+				Tooltip: ""
+			}
+
+			EgyptPot3: {
+				DisplayName: Large Desert Pot
+				Tooltip: ""
+			}
+
+			EgyptPot4: {
+				DisplayName: Large Desert Pot
+				Tooltip: ""
+			}
+
+			EgyptPot5: {
+				DisplayName: Large Desert Pot
+				Tooltip: ""
+			}
+
+			EgyptPot6: {
+				DisplayName: Medium Desert Pot
+				Tooltip: ""
+			}
+
+			EgyptPot7: {
+				DisplayName: Medium Desert Pot
+				Tooltip: ""
+			}
+
+			EgyptPot8: {
+				DisplayName: Medium Desert Pot
+				Tooltip: ""
+			}
+
+			EgyptPot9: {
+				DisplayName: Medium Desert Pot
+				Tooltip: ""
+			}
+
+			GreekPot1: {
+				DisplayName: Large Meditteranian Pot
+				Tooltip: ""
+			}
+
+			GreekPot10: {
+				DisplayName: Medium Meditteranian Pot
+				Tooltip: ""
+			}
+
+			GreekPot11: {
+				DisplayName: Medium Meditteranian Pot
+				Tooltip: ""
+			}
+
+			GreekPot12: {
+				DisplayName: Medium Meditteranian Pot
+				Tooltip: ""
+			}
+
+			GreekPot13: {
+				DisplayName: Small Meditteranian Pot
+				Tooltip: ""
+			}
+
+			GreekPot14: {
+				DisplayName: Small Meditteranian Pot
+				Tooltip: ""
+			}
+
+			GreekPot15: {
+				DisplayName: Small Meditteranian Pot
+				Tooltip: ""
+			}
+
+			GreekPot16: {
+				DisplayName: Small Meditteranian Pot
+				Tooltip: ""
+			}
+
+			GreekPot17: {
+				DisplayName: Small Meditteranian Pot
+				Tooltip: ""
+			}
+
+			GreekPot2: {
+				DisplayName: Large Meditteranian Pot
+				Tooltip: ""
+			}
+
+			GreekPot3: {
+				DisplayName: Large Meditteranian Pot
+				Tooltip: ""
+			}
+
+			GreekPot4: {
+				DisplayName: Large Meditteranian Pot
+				Tooltip: ""
+			}
+
+			GreekPot5: {
+				DisplayName: Large Meditteranian Pot
+				Tooltip: ""
+			}
+
+			GreekPot6: {
+				DisplayName: Medium Meditteranian Pot
+				Tooltip: ""
+			}
+
+			GreekPot7: {
+				DisplayName: Medium Meditteranian Pot
+				Tooltip: ""
+			}
+
+			GreekPot8: {
+				DisplayName: Medium Meditteranian Pot
+				Tooltip: ""
+			}
+
+			GreekPot9: {
+				DisplayName: Medium Meditteranian Pot
+				Tooltip: ""
+			}
+
+			HawkJar: {
+				DisplayName: Hawk Jar
+				Tooltip: ""
+			}
+
+			HumanJar: {
+				DisplayName: Human Jar
+				Tooltip: ""
+			}
+
+			JackelJar: {
+				DisplayName: Jackel Jar
+				Tooltip: ""
+			}
+
+			MingPot1: {
+				DisplayName: Large Porcelain Pot
+				Tooltip: ""
+			}
+
+			MingPot10: {
+				DisplayName: Medium Porcelain Pot
+				Tooltip: ""
+			}
+
+			MingPot11: {
+				DisplayName: Medium Porcelain Pot
+				Tooltip: ""
+			}
+
+			MingPot12: {
+				DisplayName: Medium Porcelain Pot
+				Tooltip: ""
+			}
+
+			MingPot13: {
+				DisplayName: Small Porcelain Pot
+				Tooltip: ""
+			}
+
+			MingPot14: {
+				DisplayName: Small Porcelain Pot
+				Tooltip: ""
+			}
+
+			MingPot15: {
+				DisplayName: Small Porcelain Pot
+				Tooltip: ""
+			}
+
+			MingPot16: {
+				DisplayName: Small Porcelain Pot
+				Tooltip: ""
+			}
+
+			MingPot17: {
+				DisplayName: Small Porcelain Pot
+				Tooltip: ""
+			}
+
+			MingPot2: {
+				DisplayName: Large Porcelain Pot
+				Tooltip: ""
+			}
+
+			MingPot3: {
+				DisplayName: Large Porcelain Pot
+				Tooltip: ""
+			}
+
+			MingPot4: {
+				DisplayName: Large Porcelain Pot
+				Tooltip: ""
+			}
+
+			MingPot5: {
+				DisplayName: Large Porcelain Pot
+				Tooltip: ""
+			}
+
+			MingPot6: {
+				DisplayName: Medium Porcelain Pot
+				Tooltip: ""
+			}
+
+			MingPot7: {
+				DisplayName: Medium Porcelain Pot
+				Tooltip: ""
+			}
+
+			MingPot8: {
+				DisplayName: Medium Porcelain Pot
+				Tooltip: ""
+			}
+
+			MingPot9: {
+				DisplayName: Medium Porcelain Pot
+				Tooltip: ""
+			}
+
+			NativePot1: {
+				DisplayName: Large Forest Pot
+				Tooltip: ""
+			}
+
+			NativePot10: {
+				DisplayName: Medium Forest Pot
+				Tooltip: ""
+			}
+
+			NativePot11: {
+				DisplayName: Medium Forest Pot
+				Tooltip: ""
+			}
+
+			NativePot12: {
+				DisplayName: Medium Forest Pot
+				Tooltip: ""
+			}
+
+			NativePot13: {
+				DisplayName: Small Forest Pot
+				Tooltip: ""
+			}
+
+			NativePot14: {
+				DisplayName: Small Forest Pot
+				Tooltip: ""
+			}
+
+			NativePot15: {
+				DisplayName: Small Forest Pot
+				Tooltip: ""
+			}
+
+			NativePot16: {
+				DisplayName: Small Forest Pot
+				Tooltip: ""
+			}
+
+			NativePot17: {
+				DisplayName: Small Forest Pot
+				Tooltip: ""
+			}
+
+			NativePot2: {
+				DisplayName: Large Forest Pot
+				Tooltip: ""
+			}
+
+			NativePot3: {
+				DisplayName: Large Forest Pot
+				Tooltip: ""
+			}
+
+			NativePot4: {
+				DisplayName: Large Forest Pot
+				Tooltip: ""
+			}
+
+			NativePot5: {
+				DisplayName: Large Forest Pot
+				Tooltip: ""
+			}
+
+			NativePot6: {
+				DisplayName: Large Forest Pot
+				Tooltip: ""
+			}
+
+			NativePot7: {
+				DisplayName: Large Forest Pot
+				Tooltip: ""
+			}
+
+			NativePot8: {
+				DisplayName: Medium Forest Pot
+				Tooltip: ""
+			}
+
+			NativePot9: {
+				DisplayName: Medium Forest Pot
+				Tooltip: ""
+			}
+
+			PottersWheelItem: {
+				DisplayName: Pottery Wheel
+				Tooltip: Used for special crafting, though it looks a little odd...
+			}
+		}
+
+		Tiles: {
+			BigCanopicJars.MapEntry: Canopic Jar
+			BigThickPots.MapEntry: Giant Pot
+			BigThinPots.MapEntry: Giant Pot
+			BirdPot.MapEntry: Giant Pot
+			GiantPottersWheelTile.MapEntry: Giant Potter's Wheel
+			MediumPots.MapEntry: Giant Pot
+			PokeyPot.MapEntry: Giant Pot
+			SmallPots.MapEntry: Giant Pot
+			ThinPots.MapEntry: Giant Pot
+			CanopicJars.MapEntry: Canopic Jar
+			LargeAfricanPots.MapEntry: Large Pot
+			LargeAztecPots.MapEntry: Large Pot
+			LargeEgyptPots.MapEntry: Large Pot
+			LargeGreekPots.MapEntry: Large Pot
+			LargeMingPots.MapEntry: Large Pot
+			LargeNativePots.MapEntry: Large Pot
+			MediumAfricanPots.MapEntry: Medium Pot
+			MediumAztecPots.MapEntry: Medium Pot
+			MediumEgyptPots.MapEntry: Medium Pot
+			MediumGreekPots.MapEntry: Medium Pot
+			MediumMingPots.MapEntry: Medium Pot
+			MediumNativePots.MapEntry: Medium Pot
+			PottersWheel.MapEntry: Potter's Wheel
+			SmallAfricanPots.MapEntry: Medium Pot
+			SmallAztecPots.MapEntry: Medium Pot
+			SmallEgyptPots.MapEntry: Medium Pot
+			SmallGreekPots.MapEntry: Medium Pot
+			SmallMingPots.MapEntry: Medium Pot
+			SmallNativePots.MapEntry: Medium Pot
+		}
+	}
+}

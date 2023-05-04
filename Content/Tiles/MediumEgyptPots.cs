@@ -3,6 +3,7 @@ using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.DataStructures;
 using Terraria.ID;
+using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 
@@ -14,38 +15,13 @@ public class MediumEgyptPots : ModTile
     {
         TileID.Sets.DisableSmartCursor[base.Type] = true;
         Main.tileFrameImportant[base.Type] = true;
-        Main.tileLighted[base.Type] = true;
         Main.tileLavaDeath[base.Type] = true;
-        TileID.Sets.FramesOnKillWall[base.Type] = true;
         TileObjectData.newTile.CopyFrom(TileObjectData.Style1x2);
         TileObjectData.newTile.CoordinateHeights = new int[2] { 16, 18 };
         TileObjectData.newTile.CoordinateWidth = 18;
         TileObjectData.newTile.StyleHorizontal = true;
         TileObjectData.addTile(base.Type);
-        ModTranslation name = base.CreateMapEntryName();
-        name.SetDefault("Medium Pot");
+        LocalizedText name = base.CreateMapEntryName();
         base.AddMapEntry(new Color(139, 0, 0), name);
-    }
-    public override void KillMultiTile(int x, int y, int frameX, int frameY)
-    {
-
-        int item = 0;
-        int frame = frameX / 20;
-
-        if (frame == 0)
-            item = ModContent.ItemType<Items.EgyptPot6>();
-        else if (frame == 1)
-            item = ModContent.ItemType<Items.EgyptPot7>();
-        else if (frame == 2)
-            item = ModContent.ItemType<Items.EgyptPot8>();
-        else if (frame == 3)
-            item = ModContent.ItemType<Items.EgyptPot9>();
-        else if (frame == 4)
-            item = ModContent.ItemType<Items.EgyptPot10>();
-        else if (frame == 5)
-            item = ModContent.ItemType<Items.EgyptPot11>();
-
-        if (item > 0)
-            Item.NewItem(new EntitySource_TileBreak(x, y), x * 16, y * 16, 32, 48, item);
     }
 }

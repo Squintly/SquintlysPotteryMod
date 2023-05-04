@@ -7,17 +7,15 @@ namespace SquintlysPotteryMod.Content.Items
 	public class AfricanPot1 : ModItem
 	{
 		public override void SetStaticDefaults() {
-			DisplayName.SetDefault("Large Savannah Pot");
-            
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 
 		public override void SetDefaults() {
-			Item.createTile = ModContent.TileType<Tiles.LargeAfricanPots>(); // This sets the id of the tile that this item should place when used.
-            Item.placeStyle = 0;
+			Item.createTile = ModContent.TileType<Tiles.LargeAfricanPots>();
+			Item.placeStyle = 0;
 
-            Item.width = 24; // The item texture's width
-			Item.height = 27; // The item texture's height
+            Item.width = 24;
+			Item.height = 27;
 
 			Item.useTurn = true;
 			Item.autoReuse = true;
@@ -28,8 +26,6 @@ namespace SquintlysPotteryMod.Content.Items
 			Item.maxStack = 99;
 			Item.consumable = true;
 		}
-
-		// Please see Content/ExampleRecipes.cs for a detailed explanation of recipe creation.
 		public override void AddRecipes() {
 			CreateRecipe()
 				.AddIngredient(ItemID.ClayBlock, 8)

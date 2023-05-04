@@ -7,17 +7,14 @@ namespace SquintlysPotteryMod.Content.Items.BIG
 	public class BigAztecPot6 : ModItem
 	{
 		public override void SetStaticDefaults() {
-			DisplayName.SetDefault("Gargantuan Jungle Pot");
-            
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 
 		public override void SetDefaults() {
-			Item.createTile = ModContent.TileType<Tiles.BIG.BirdPot>(); // This sets the id of the tile that this item should place when used.
-            //Item.placeStyle = 5;
+			Item.createTile = ModContent.TileType<Tiles.BIG.BirdPot>(); 
 
-            Item.width = 32; // The item texture's width
-            Item.height = 32; // The item texture's height
+            Item.width = 32;
+			Item.height = 22;
 
             Item.useTurn = true;
 			Item.autoReuse = true;
@@ -28,8 +25,6 @@ namespace SquintlysPotteryMod.Content.Items.BIG
 			Item.maxStack = 99;
 			Item.consumable = true;
 		}
-
-		// Please see Content/ExampleRecipes.cs for a detailed explanation of recipe creation.
 		public override void AddRecipes() {
 			CreateRecipe()
 				.AddIngredient(ItemID.ClayBlock, 10)

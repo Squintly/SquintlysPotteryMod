@@ -3,6 +3,7 @@ using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.DataStructures;
 using Terraria.ID;
+using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 using Terraria.Enums;
@@ -26,26 +27,7 @@ public class CanopicJars : ModTile
         TileObjectData.newTile.StyleMultiplier = 3;
         TileObjectData.addTile(base.Type);
 
-        ModTranslation name = base.CreateMapEntryName();
-        name.SetDefault("Canopic Jar");
+        LocalizedText name = base.CreateMapEntryName();
         base.AddMapEntry(new Color(139, 0, 0), name);
-    }
-    public override void KillMultiTile(int x, int y, int frameX, int frameY)
-    {
-
-        int item = 0;
-        int frame = frameY / 38;
-
-        if (frame == 0)
-            item = ModContent.ItemType<Items.JackelJar>();
-        else if (frame == 1)
-            item = ModContent.ItemType<Items.BaboonJar>();
-        else if (frame == 2)
-            item = ModContent.ItemType<Items.HawkJar>();
-        else if (frame == 3)
-            item = ModContent.ItemType<Items.HumanJar>();
-
-        if (item > 0)
-            Item.NewItem(new EntitySource_TileBreak(x, y), x * 16, y * 16, 32, 48, item);
     }
 }
