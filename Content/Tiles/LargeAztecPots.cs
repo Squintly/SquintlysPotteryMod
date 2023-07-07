@@ -11,6 +11,7 @@ namespace SquintlysPotteryMod.Content.Tiles;
 
 public class LargeAztecPots : ModTile
 {
+    public const int NextStyleWidth = 36;
     public override void SetStaticDefaults()
     {
         TileID.Sets.DisableSmartCursor[base.Type] = true;
@@ -19,6 +20,7 @@ public class LargeAztecPots : ModTile
         TileObjectData.newTile.CopyFrom(TileObjectData.Style2x2);
         TileObjectData.newTile.CoordinateHeights = new int[2] { 16, 18 };
         TileObjectData.newTile.StyleHorizontal = true;
+        TileObjectData.newTile.StyleWrapLimit = 111;
 
         TileObjectData.addTile(base.Type);
     }

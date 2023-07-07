@@ -11,6 +11,7 @@ namespace SquintlysPotteryMod.Content.Tiles.BIG;
 
 public class BirdPot : ModTile
 {
+    public const int NextStyleWidth = 72;
     public override void SetStaticDefaults()
     {
         TileID.Sets.DisableSmartCursor[base.Type] = true;

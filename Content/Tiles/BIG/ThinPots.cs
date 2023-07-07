@@ -11,6 +11,7 @@ namespace SquintlysPotteryMod.Content.Tiles.BIG;
 
 public class ThinPots : ModTile
 {
+    public const int NextStyleWidth = 36;
     public override void SetStaticDefaults()
     {
         TileID.Sets.DisableSmartCursor[base.Type] = true;
@@ -18,6 +19,7 @@ public class ThinPots : ModTile
 
         TileObjectData.newTile.CopyFrom(TileObjectData.Style3x4);
         TileObjectData.newTile.StyleHorizontal = true;
+        TileObjectData.newTile.StyleWrapLimit = 111;
         TileObjectData.newTile.Width = 2;
         TileObjectData.newTile.CoordinateHeights = new int[4] { 16, 16, 16, 18 };
         TileObjectData.newTile.CoordinatePaddingFix = new Point16(0, 2);

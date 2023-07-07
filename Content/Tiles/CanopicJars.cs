@@ -12,6 +12,7 @@ namespace SquintlysPotteryMod.Content.Tiles;
 
 public class CanopicJars : ModTile
 {
+    public const int NextStyleWidth = 18;
     public override void SetStaticDefaults()
     {
         TileID.Sets.DisableSmartCursor[base.Type] = true;

@@ -11,6 +11,7 @@ namespace SquintlysPotteryMod.Content.Tiles.BIG;
 
 public class BigThickPots : ModTile
 {
+    public const int NextStyleWidth = 72;
     public override void SetStaticDefaults()
     {
         TileID.Sets.DisableSmartCursor[base.Type] = true;
@@ -22,6 +23,7 @@ public class BigThickPots : ModTile
         TileObjectData.newTile.CoordinatePaddingFix = new Point16(0,2);
 
         TileObjectData.newTile.StyleHorizontal = true;
+        TileObjectData.newTile.StyleWrapLimit = 111;
 
         TileObjectData.addTile(base.Type);
     }

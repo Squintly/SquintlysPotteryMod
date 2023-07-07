@@ -13,6 +13,7 @@ namespace SquintlysPotteryMod.Content.Tiles.BIG;
 
 public class BigCanopicJars : ModTile
 {
+    public const int NextStyleWidth = 36;
     public override void SetStaticDefaults()
     {
         TileID.Sets.DisableSmartCursor[base.Type] = true;
